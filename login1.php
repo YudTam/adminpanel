@@ -21,7 +21,7 @@ else{
     $_SESSION["loginid"]=$tem_id;
     setcookie('elearning_id',$tem_id,time()+3600,'/');
 
-    header("Location: index.html");
+    header("Location: index.php");
  
 
 
