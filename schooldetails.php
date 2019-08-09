@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 <html>
 
@@ -33,7 +33,7 @@
     <link href="css/themes/all-themes.css" rel="stylesheet" />
 </head>
 
-<body class="theme-red">
+<body class="theme-blue">
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
@@ -92,8 +92,8 @@
                     <img src="images/user.png" width="48" height="48" alt="User" />
                 </div>
                 <div class="info-container">
-                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</div>
-                    <div class="email">admin@example.com</div>
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">School</div>
+                    <div class="email">school@example.com</div>
                     <div class="btn-group user-helper-dropdown">
                         <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
                         <ul class="dropdown-menu pull-right">
@@ -114,7 +114,7 @@
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
                     <li >
-                        <a href="index.php">
+                        <a href="schooldash.php">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
@@ -126,8 +126,8 @@
                         </a>
                         <ul class="ml-menu">
                             <li class="active">
-                                <a href="schoollist.php" class="">
-                                    <span>Create School</span>
+                                <a href="schooldetails.php" class="">
+                                    <span>My Details</span>
                                 </a>
 							</li>
 							 
@@ -155,7 +155,7 @@
                             School List</h2>
 							<ul class="header-dropdown m-r--5">
 <!-- <a href="Schoolform.php"><Button class="btn-primary" style="float:right;padding-top:08px;">Add School</button></a> -->
-<a href="" style="background-color:#F44336 !important" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Add School</a>                                           
+<!-- <a href="" style="background-color:#F44336 !important" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Add School</a>                                            -->
 						<li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="material-icons">more_vert</i>
@@ -168,6 +168,35 @@
                                 </li>
                             </ul>
                         </div>
+                        <?php
+// session_start();
+
+$name="";
+$address="";
+$email="";
+$phone="";
+$status="";
+// $email=$_SESSION['loginemail'];
+require 'connection.php';
+$sql = "SELECT * FROM `school`";
+$result=mysqli_query($con,$sql);
+if (mysqli_num_rows($result)==0){
+
+}
+else{
+    while ($row=mysqli_fetch_assoc($result)) {
+        $name=$row['name'];
+        $address=$row['schooladdr'];
+        $email=$row['schoolmail'];
+        $phone=$row['schoolcontact'];
+        $status=$row['schoolstatus'];
+    }
+}
+
+
+
+
+?>
                         <div class="body">
                             <div class="table-responsive">
                                 <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
@@ -177,15 +206,37 @@
                                             <th>Address</th>
                                             <th>Email</th>
                                             <th>Phone Number</th>
-                                            
+                                            <th>Status</th>
                                         
                                         </tr>
                                     </thead>
 
                                     <tbody>
                                         <tr>
-                                            <td> </td>
-                                            <td> </td>
+                                            <td><?php 
+                                            echo $name;
+                                            ?> </td>
+                                            <td>
+                                            <?php 
+                                            echo $address;
+                                            ?> </td>
+                                            <td>
+                                            <?php 
+                                            echo $email;
+                                            ?></td>
+                                            <td>
+                                            <?php 
+                                            echo $phone;
+                                            ?></td>
+                                            <td>
+                                            <?php 
+                                            echo $status;
+                                            ?></td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                             <td></td>
                                             <td></td>
                                         </tr>
@@ -194,13 +245,8 @@
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                        </tr>
-                                        <tr>
                                             <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                                                                    </tr>
+                                                                                    </tr> -->
                                         </tbody>
                                 </table>
                             </div>

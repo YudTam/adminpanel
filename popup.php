@@ -13,6 +13,9 @@
         <div class="md-form mb-5">
           <i class="fas fa-envelope prefix grey-text"></i>
           <input type="number" name="school_id" class="form-control validate" value="" placeholder='Enter ID'>
+          <br>
+          <br>
+          <input type="password" name="schoolpass" class="form-control validate" value="" placeholder='Enter password'>
           <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
         </div>
 

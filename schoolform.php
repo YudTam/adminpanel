@@ -146,7 +146,7 @@
                         </a>
                         <ul class="ml-menu">
                             <li class="active">
-                                <a href="schoollist.html" class="active">
+                                <a href="schoollist.php" class="active">
                                     <span>Create School</span>
                                 </a>
 							</li>
