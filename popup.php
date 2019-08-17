@@ -17,6 +17,39 @@
           <br>
           <input type="password" name="schoolpass" class="form-control validate" value="" placeholder='Enter password'>
           <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          <br>
+          <br>
+          <input type="text" name="name" class="form-control validate" value="" placeholder='Enter School Name'>
+          <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          <br>
+          <br>
+          <input type="email" name="schoolmail" class="form-control validate" value="" placeholder='Enter Email'>
+          <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          <br>
+          <br>
+          <input type="number" name="schoolcontact" class="form-control validate" value="" placeholder='Enter Contact'>
+          <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          <br>
+          <br>
+          <input type="text" name="schooladdr" class="form-control validate" value="" placeholder='Enter Address'>
+          <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          <br>
+          <br>
+          <input type="text" name="schoolprincipal" class="form-control validate" value="" placeholder='Enter Principal Name'>
+          <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          <br>
+          <br>
+          <input type="date" name="schoolregdate" class="form-control validate" value="" placeholder='Enter Registration date'>
+          <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          <br>
+          <br>
+          <input type="number" name="schoolstatus" class="form-control validate" value="" placeholder='Enter School Status'>
+          <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          <br>
+          <br>
+          <input type="number" name="license_duration" class="form-control validate" value="" placeholder='Enter License'>
+          <label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+          
         </div>
 
         <!-- <div class="md-form mb-4">

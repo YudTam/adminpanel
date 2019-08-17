@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 <html>
 
@@ -150,17 +150,16 @@
                             <span>School</span>
                         </a>
                         <ul class="ml-menu">
-                            <li class="">
-                                <a href="createschool.php" class="">
+                            <li class="active">
+                                <a href="createshool.php" class="">
                                     <span>Create School</span>
                                 </a>
 							</li>
-                            <li class="active">
+                            <li class="">
                                 <a href="schoollist.php" class="">
                                     <span>School List</span>
                                 </a>
 							</li>
-							 
                             
                         </ul>
                     </li>
@@ -185,7 +184,7 @@
                             School List</h2>
 							<ul class="header-dropdown m-r--5">
 <!-- <a href="Schoolform.php"><Button class="btn-primary" style="float:right;padding-top:08px;">Add School</button></a> -->
-<!-- <a href="" style="background-color:#F44336 !important" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Add School</a>                                            -->
+<a href="" style="background-color:#F44336 !important" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Create School</a>                                           
 						<li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="material-icons">more_vert</i>
@@ -210,7 +209,7 @@
                                             <th>Email</th>
                                             <th>Phone Number</th>
                                             <th>Status</th>
-                                            <th colspan="2" style="padding-left: 6%;">Actions</th>
+                                            
                                             
                                         
                                         </tr>
@@ -269,47 +268,14 @@
                                             <?php
                                             echo $status;
                                             ?></td>
-                                            <td id="up"><a style="background-color:#F44336 !important"  class="btn btn-default btn-rounded mb-4">Update</a></td>
-                                            <td><a style="background-color:#F44336 !important" class="btn btn-default btn-rounded mb-4">Delete</a></td>
-                                          
+                                            
                                         </tr>
-           
+                                        
                                         <?php
                                     }
                                 }
                                 ?>
-                                                             <script>
-                    //   $( document ).ready(function(){
-                        // $( window ).load(function(){
-                            $("#up").one('click',function() {
-                                // $('#up').css('display','none');
-                        
-                        $("#update").append('<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="card"><div class="header" id="london"> <form action="<?php $_PHP_SELF ?>"  id="form_validation" method="POST" enctype="multipart/form-data"><h1>Update Information</h1>  <div class="form-group form-float"><div class="form-line"><input type="text" class="form-control" name="sname" value="" placeholder="<?php echo $name?>" required><label class="form-label"></label></div></div><div class="form-group form-float"><div class="form-line"><input type="text" class="form-control" name="schooladdr"value="" placeholder="<?php echo $address?>" required><label class="form-label"></label></div></div><div class="form-group form-float"><div class="form-line"><input type="number" class="form-control" name="id"value="" placeholder="<?php echo $id?>"required ><label class="form-label"></label></div></div><div class="form-group form-float"><div class="form-line"><input type="email" class="form-control" name="schoolmail"value="" placeholder="<?php echo $email?>" required><label class="form-label"></label></div><br><div class="form-line"><input type="number" class="form-control" name="schoolstatus"value="" placeholder="<?php echo $status?>" required><label class="form-label"></label></div><br><div class="form-line"><input type="number" class="form-control" name="schoolcontact" value="" placeholder="<?php echo $phone?>" required><label class="form-label"></label></div></div><button class="btn btn-primary waves-effect"  name="Update" id="Update" value="Update" type="submit"  <a href="schoolist.php"></a>UPDATE</button></form></div></div></div>');
-                      });
-</script>
 
-<?php
-// session_start();
-
-if(isset($_POST['Update'])){
-require "connection.php";
-$schoolmail2 =$_POST['schoolmail'];
-$sname2=$_POST['sname'];
-$schooladdr2 =$_POST['schooladdr'];
-$id2=$_POST['id'];
-$schoolcontact2 =$_POST['schoolcontact'];
-$schoolstatus2 =$_POST['schoolstatus'];
-$ins_query="UPDATE `school` SET  `name` = '$sname2', `schoolmail` = '$schoolmail2', `schooladdr` = '$schooladdr2', `schoolcontact` = '$schoolcontact2', `schoolstatus` = '$schoolstatus2' WHERE `school`.`id` = $id2;";
-if(mysqli_query($con,$ins_query)) {
-    //echo $id;
-    //header("Location: schoollist.php");
-}
-else{
-     echo $id2;
-    //header("location: schoolist.php");
-echo "not updated";
-}}
-?>
                                         <!-- <tr>
                                             <td></td>
                                             <td></td>
@@ -335,8 +301,7 @@ echo "not updated";
                         
                     </div>
             
-                    <div id="update">
-                    </div>
+                    
                 </div>
             </div>
             <!-- #END# Basic Examples -->
